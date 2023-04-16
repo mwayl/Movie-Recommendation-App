@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <p id="heading">MOVIE SELECTOR</p>
+        </div>
+    </header>
+    <body>
+        <div class="search-filter">
+            <form>
+                <label for="genre" class="labeling">GENRE</label>
+                <select class="selected" id="genre">
+                    <option value="">All</option>
+                    <option value="horror">Horror</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="romance">Romance</option>
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="science fiction">Sience Fiction</option>
+                </select>
+            </form>
+            <form>
+                <label for="year" class="labeling">YEAR</label>
+                <select class="selected" id="year">
+                    <option value="">All</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                </select>
+            </form>
+            <form>
+                <label for="language" class="labeling">LANGUAGE</label>
+                <select class="selected" id="language">
+                    <option value="">All</option>
+                    <option value="english">English</option>
+                    <option value="french">French</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="turkish">Turkish</option>
+                    <option value="japanese">Japanese</option>
+                    <option value="italian">Italian</option>
+                </select>
+            </form>
+            <form>
+                <label for="rating" class="label">RATING</label>
+                <select id="rating" >
+                    <option value="">All</option>
+                    <option value="english">5.0</option>
+                    <option value="punjabi">4.5</option>
+                    <option value="Uurdu">4.0</option>
+                    <option value="turkey">3.0</option>
+                    <option value="hindi">2.0</option>
+                    <option value="chinese">1.0</option>
+                </select>
+            </form>
+            <input type="button" value="search" id="search">
+        </div>
+        
+            <div class="option">
+                <div class="option-right">
+                <p>RANK</p>
+                <P>MOVIE</P></div>
+                <div class="option-left">
+                <p >YEAR</p></div>
+            </div>
+            <div id="display">
+              <!-- <div class="item">
+                <p class="rank-number">1</p>
+                <div class="pic"></div>
+                <p id="film-name">Godzilla vs Kong</p>
+                <div class="information-of-film">
+                     <ul class="list">
+                        <li>romance</li>
+                        <li>action</li>
+                        <li>adventure</li>
+                     </ul>
+                     <p class="time">. 2h 53min</p>
+                </div>
+                
+                    <p class="year">2008</p>
+                
+              </div> -->
+             
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</body>
+</html>
